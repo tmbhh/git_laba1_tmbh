@@ -10,6 +10,9 @@ namespace git_laba1_tmbh
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("add znachenie a:");
+            double a = Convert.ToDouble(Console.ReadLine());
+            double p = 4 * a;Console.WriteLine(p);
         }
     }
 }
